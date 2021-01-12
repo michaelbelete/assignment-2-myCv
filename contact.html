@@ -1,41 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Michael Belete Profile</title>
   <link rel="icon" href="img/icon.png">
-  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header class="header_area">
-    <div class="top-head">
-      
-      <div class="item email">
-        <a href="mailto:it.michael@gmail.com"><img src="img/email_icon.png" alt="Email Me" width="25" height="25"></a>
-      </div>
-
-      <div class="item phone">
-        Call Me: +251 960021405
-      </div>
-
-    </div>
     <center class="bottom-head">
-      
       <div class="logo">
         MB
       </div>
-      <ul class="links">
-        <a href="index.html" target="_blank"><li>Home</li></a>
-        <a href="contact.html" target="_blank"><li>Contact Me</li></a>
-        <a href="gallery.html" target="_blank"><li>Gallery</li></a>
-        <a href="blog.html" target="_blank"><li>Blog</li></a>
-        <a href="myWork.html" target="_blank"><li>My Work</li></a>
-      </ul>
+      <table>
+        <tr>
+          <td><a href="index.html">Home</a></td>
+          <td><a href="contact.html">Contact Me</a></td>
+          <td><a href="gallery.html">Gallery</a></td>
+        </tr>
+      </table>
     </center>
   </header>
-  
+<center>
   <section class="contact-me">
     <div class="title">
       <h1>Contact Me</h1>
@@ -45,26 +34,30 @@
       <div class="form-item">
         <h3>Get In Touch</h3>
         <form action="#" method="POST">
-          <input type="text" placeholder="Enter Your Full Name" pattern="[A-Za-z]{2,50}" required>
-          <input type="email" placeholder="Enter Your Email" required>
-          <input type="url" placeholder="Enter Your Website (optional)" required>
-          <input type="tel" name="tel" pattern="0-9{10}" placeholder="Enter your phone" required>
+          <input type="text" placeholder="Enter Your Full Name" pattern="[A-Za-z]{2,50}" required><br><br>
+          <input type="email" placeholder="Enter Your Email" required><br><br>
+          <input type="url" placeholder="Enter Your Website (optional)" required><br><br>
+          <input type="tel" name="tel" pattern="0-9{10}" placeholder="Enter your phone" required><br><br>
           <select name="sex">
             <option value="">Select Your sex</option>
             <option value="f">Female</option>
             <option value="m">Male</option>
-          </select>
-          <textarea cols="30" rows="5" placeholder="Enter your message here..."></textarea>
+          </select><br><br>
+          <textarea cols="30" rows="5" placeholder="Enter your message here..."></textarea><br><br>
           <button type="submit">Submit</button>
         </form>
       </div>
     </div>
+    <br>
     <div class="location-map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.187858663747!2d38.75785801662276!3d9.046622127588078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f69f1dbdf67%3A0xb8a418693b6edef9!2sAddis%20Ababa%20University%20College%20of%20Social%20Sciences!5e0!3m2!1sen!2set!4v1583781049121!5m2!1sen!2set" width="50%" height="460" frameborder="0"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.187858663747!2d38.75785801662276!3d9.046622127588078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f69f1dbdf67%3A0xb8a418693b6edef9!2sAddis%20Ababa%20University%20College%20of%20Social%20Sciences!5e0!3m2!1sen!2set!4v1583781049121!5m2!1sen!2set"
+        width="50%" height="460" frameborder="0"></iframe>
     </div>
   </section>
   <footer>
     <p>Proudly developed by michael belete</p>
   </footer>
 </body>
+</center>
 </html>
