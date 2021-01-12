@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin-top: 10em;
+  margin-left: 30em;
+}
+.box {
+  border: 5px solid #000;
+  height: 7em;
+  width: 7em;
+}
+
+.row .box{
+  display: table-cell;
+}
+
+.row .left-right{
+  border-left: 0;
+  border-right: 0;
+}
+
+.row .top-bottom{
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.row .none{
+  border:0;
+}
